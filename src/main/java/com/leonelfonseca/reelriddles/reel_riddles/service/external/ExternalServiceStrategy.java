@@ -1,3 +1,5 @@
 package com.leonelfonseca.reelriddles.reel_riddles.service.external;
 
-public interface ExternalServiceStrategy {}
+public interface ExternalServiceStrategy {
+    String fetchData();
+}
