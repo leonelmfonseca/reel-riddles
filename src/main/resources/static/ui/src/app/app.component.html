@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="letter-placeholders">
+        <div *ngFor="let letter of movieTitle">{{ letter }}</div>
+    </div>
+    <input [(ngModel)]="guessedLetter" maxlength="1" placeholder="Enter a letter" />
+    <button (click)="checkLetter()">Check Letter</button>
+</div>
